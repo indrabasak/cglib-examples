@@ -5,6 +5,12 @@ import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
+/**
+ * {@code ProxTest} tests Java Standard {@code java.lang.reflect.Proxy}
+ *
+ * @author Indra Basak
+ * @since 11/2/17
+ */
 public class ProxyTest {
 
     @Test

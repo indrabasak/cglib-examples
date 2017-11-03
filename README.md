@@ -1,7 +1,7 @@
 [![Build Status][travis-badge]][travis-badge-url]
 
 
-Java Reflect Proxy, cglib Examples
+Java Reflect Proxy And cglib Examples
 ======================================
 cglib examples based on [cglib Missing Manual](http://mydailyjava.blogspot.no/2013/11/cglib-missing-manual.html) a
 an [cglib Tutorial](https://github.com/cglib/cglib/wiki/Tutorial)
@@ -12,7 +12,7 @@ an [cglib Tutorial](https://github.com/cglib/cglib/wiki/Tutorial)
 `Enhancer` allows the creation of Java proxies for non-interface types. It's 
 similar to Java's Proxy. The Enhancer dynamically creates a subclass of a given
  type and intercepts all method calls except `final` methods. It cannot
- create proxies for `final` classes
+ create proxies for `final` classes.
  
 The class names are generated randomly by cglib in the same package
 as the enhanced class (and therefore be able to override package-private methods). 
